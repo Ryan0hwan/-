@@ -60,3 +60,18 @@ public class Main{
     }
 }
 
+
+# 1041. 문자 1개 입력받아서 다음 문자 출력하기. 
+import java.io.*;
+
+public class Main{
+    public static void main(String[] args)throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int a = br.readLine().charAt(0);
+        a++;
+        System.out.println((char)a);
+    }
+}
+
+
+48번부터 다시
